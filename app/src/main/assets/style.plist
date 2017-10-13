@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>skin_index_bottom_image</key>
+	<dict>
+		<key>backgroundImage</key>
+		<string>login_bottom_banner.png</string>
+	</dict>
+	<key>skin_tab_button</key>
+	<dict>
+		<key>textColor</key>
+		<string>FF00FF</string>
+		<key>textFontSize</key>
+		<string>16</string>
+		<key>backgroundColor</key>
+		<string>00FF00</string>
+	</dict>
+	<key>skin_navigation_title</key>
+	<dict>
+		<key>textFontSize</key>
+		<string>12</string>
+		<key>textColor</key>
+		<string>F11F22</string>
+	</dict>
+	<key>skin_submit_button</key>
+	<dict>
+		<key>textFontSize</key>
+		<string>14</string>
+		<key>textColor</key>
+		<string>FFFFFF</string>
+		<key>textColorPress</key>
+		<string>000000</string>
+		<key>textColorDisable</key>
+		<string>FF00FF</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+include ':app', ':skincore'
+gradle.ext {
+    // maven config
+    mavenUrl = "http://172.22.0.27:8081/nexus/content/repositories/releases/"
+    mavenDevUrl = "http://172.22.0.27:8081/nexus/content/repositories/releases/"
+    mavenUserName = "admin"
+    mavenPwd = "admin123"
+}

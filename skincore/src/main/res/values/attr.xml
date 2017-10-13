@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="skin">
+        <attr name="style" format="string" />
+    </declare-styleable>
+
+        <declare-styleable name="skinSupport">
+            <attr name="android:textColor" />
+            <attr name="android:background" />
+            <attr name="android:textSize" />
+        </declare-styleable>
+</resources>

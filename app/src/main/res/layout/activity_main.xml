@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tuniu.skinloader.MainActivity">
+
+    <TextView
+        android:tag="style:skin_tab_button"
+        android:id="@+id/hello"
+        style="@style/skin_tab_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文字和背景色可变" />
+
+    <Button
+        android:id="@+id/color_state_btn"
+        style="@style/skin_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hello"
+        android:text="文字点按效果可变" />
+
+    <Button
+        android:id="@+id/switchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="切换皮肤" />
+
+    <TextView
+        android:id="@+id/label_bg_img"
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/color_state_btn"
+        android:text="背景图片可变" />
+
+    <Button
+        android:id="@+id/switchDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="切换默认" />
+
+    <ImageView
+        android:id="@+id/bottom_image"
+        style="@style/skin_index_bottom_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/color_state_btn"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toRightOf="@+id/label_bg_img" />
+
+    <TextView
+        android:id="@+id/label_bg_btn_tv"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bottom_image"
+        android:layout_marginTop="20dp"
+        android:text="点按效果可变" />
+    <Button
+        style="@style/skin_checked_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_bg_btn_tv"
+        android:layout_alignBottom="@+id/label_bg_btn_tv"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button" />
+</RelativeLayout>
